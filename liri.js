@@ -25,10 +25,6 @@ switch (action) {
     case "do-what-it-says":
         getRandom();
         break;
-
-    default:
-        console.log("You must pass an action [concert-this, spotify-this-song, movie-this, do-what-it-says] and a value");
-        console.log("Example: node liri.js movie-this Rocky");
 }
 
 
